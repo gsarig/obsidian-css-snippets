@@ -1,4 +1,4 @@
-# obsidian-css-snippets
+# CSS Snippets for Obsidian
 Various CSS Snippets for Obsidian's "Edit" view (I never use the Reading view 😁).
 
 ---
