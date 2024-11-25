@@ -1,0 +1,30 @@
+/* Make ul and ol list prettier */
+.markdown-source-view.mod-cm6 .cm-indent::before {
+    border-inline-end: none;
+}
+span.list-number {
+    font-family: var(--font-family-number);
+    color: var(--text-color-default);
+}
+.HyperMD-list-line-2 .cm-formatting-list-ul .list-bullet:after,
+.HyperMD-list-line-5 .cm-formatting-list-ul .list-bullet:after {
+    border: 1px solid #444;
+    background-color: #fff;
+}
+.HyperMD-list-line-3 .cm-formatting-list-ul .list-bullet:after,
+.HyperMD-list-line-6 .cm-formatting-list-ul .list-bullet:after {
+    content: '-';
+    height: 0;
+    line-height: 0;
+    font-weight: bold;
+    color: var(--text-color-default);
+}
+.HyperMD-list-line-4 .cm-formatting-list-ul .list-bullet:after {
+    background-color: var(--text-color-light);
+}
+.HyperMD-list-line-5 .cm-formatting-list-ul .list-bullet:after {
+    border-color: var(--text-color-light);
+}
+.HyperMD-list-line-6 .cm-formatting-list-ul .list-bullet:after {
+    color: var(--text-color-light);
+}

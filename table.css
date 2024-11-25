@@ -1,0 +1,17 @@
+/* Table mods */
+.cm-table-widget {}
+.cm-table-widget .table-wrapper {}
+thead {
+    background: var(--background-color-light);
+    filter: invert(100%);
+}
+.table-cell-wrapper {
+    padding: 0.5em 1em !important;
+}
+th .table-cell-wrapper {
+    font-weight: bold;
+}
+tbody tr:hover {
+background-color: var(--background-color-light) !important;
+}
+tr .table-cell-wrapper {}

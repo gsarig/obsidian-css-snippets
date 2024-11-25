@@ -1,0 +1,8 @@
+/* Show word count on hover */
+.HyperMD-header .bwc-section-count {
+    opacity: 0;
+}
+.HyperMD-header:hover .bwc-section-count,
+.HyperMD-header.cm-active .bwc-section-count {
+    opacity: 1;
+}

@@ -1,0 +1,58 @@
+/* Code block mods */
+.HyperMD-codeblock.cm-line:not(.HyperMD-codeblock-begin-bg):not(.HyperMD-codeblock-end-bg) {
+    counter-increment: codeLineCounter;
+}
+.HyperMD-codeblock.cm-line.HyperMD-codeblock-begin-bg {
+    padding-bottom: 1em;
+}
+.HyperMD-codeblock.cm-line {
+    padding-left: 4em !important;
+}
+.HyperMD-codeblock.cm-line:not(.HyperMD-codeblock-begin-bg):hover {
+    background-color: rgba(0,0,0,0.05) !important;
+}
+.HyperMD-codeblock.cm-line:not(.HyperMD-codeblock-begin-bg):not(.HyperMD-codeblock-end-bg)::before {
+    content: counter(codeLineCounter);
+    font-size: 0.9em;
+    display: inline-block;
+    color: var(--text-color-light);
+    margin-left: -3em;
+    min-width: 2em;
+    padding-right: 0.5em;
+}
+.HyperMD-codeblock-end-bg {
+    counter-reset: codeLineCounter 0;
+}
+
+/* Code block dark mode */
+.cm-inline-code {
+    filter: invert(82%);
+    padding:0.2em 0.5em !important;
+    color: #000 !important;
+    background-color: #ddd !important;
+}
+.HyperMD-codeblock.cm-line {
+    filter: invert(92%);
+}
+.cm-formatting-code.cm-inline-code,
+.cm-formatting-code + .cm-inline-code {
+    filter: unset;
+    padding: unset !important;
+    color: unset !important;
+    background-color: unset !important;
+}
+.HyperMD-codeblock.cm-line:not(.HyperMD-codeblock-begin-bg):hover {
+    background-color: rgba(255,255,255,0.8) !important;
+}
+span.cm-builtin {
+    color: #000;
+}
+span.cm-attribute {
+    color: #6E5300;
+}
+span.cm-string {
+    color: #1C7B8F;
+}
+span.cm-property {
+    color: #86753B;
+}

@@ -1,0 +1,9 @@
+body {
+    --list-indent: 1.8em;
+    --text-color-default: #000;
+    --text-color-light: #999;
+    --border-color-light: #ccc;
+    --background-color-default: #fff;
+    --background-color-light: #f9f9f9;
+    --font-family-number: Georgia;
+}

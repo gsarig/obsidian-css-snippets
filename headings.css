@@ -1,0 +1,25 @@
+/* Heading mods */
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-2,
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-3,
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-4,
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-5,
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-6 {
+    padding-bottom: 0.3em;
+}
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-2 {
+    border-bottom: 1px solid var(--border-color-light);
+    margin-bottom: 0.5em !important;
+    color: #0B3C49;
+}
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-3 {
+    color: #1F7A8C;
+}
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-4 {
+    color: #3F7D20;
+}
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-5 {
+    color: #72B01D;
+}
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-6 {
+    color: #731963;
+}

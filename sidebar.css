@@ -1,0 +1,6 @@
+/* Hide attachments from the sidebar */
+div[data-path='Attachments'],
+div[data-path='Attachments'] + div.nav-folder-children
+{
+    display: none;
+}
