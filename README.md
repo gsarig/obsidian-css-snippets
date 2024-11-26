@@ -1,12 +1,11 @@
 # CSS Snippets for Obsidian
-Various CSS Snippets for Obsidian's "Edit" view (I never use the Reading view 😁), using the default theme in light mode. They are modular in purpose, so that they can be easily enabled or disabled individually. 
+Various CSS Snippets for Obsidian's "Edit" view (I never use the Reading view 😁), using the default theme in light mode. They are modular on purpose, so that they can be easily enabled or disabled individually. 
 
 ![settings.png](assets/settings.png)
-
----
+![compare.png](assets/compare.png)
 
 ## 01-variables.css
-* Sets the variables that  should be carried over across the various snippets. It is prefixed with `01-` to ensure that it will always appear first. 
+* Sets the variables that  should be carried over across the various snippets. It is prefixed with `01-` to ensure that it will always load first. 
 
 ## code.css
 * Changes to the CodeBlock layout. It uses `filter: invert()` so that it applies the reverse styling on dark mode. 
