@@ -37,9 +37,14 @@ Syntax:
 <details>
 <summary>footnotes.css</summary>
 
-Converts the footnotes to tooltips which show their content on hover.
+Converts [inline footnotes](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Footnotes) to tooltips which show their content on hover.
 
-![footnotes.png](assets/footnotes.png)
+![footnote.gif](assets/footnote.gif)
+
+Syntax:
+```markdown
+You can use inline footnotes ^[This is an inline footnote.] and then continue your text.
+```
 
 </details>
 
