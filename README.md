@@ -9,6 +9,21 @@ Sets the variables that  should be carried over across the various snippets. It 
 </details>
 
 <details>
+<summary>callout-spoiler.css</summary>
+
+Styles a `spoiler` custom [callout](https://help.obsidian.md/Editing+and+formatting/Callouts), and reveals its contents after the box is both expanded and the user hovers over the content area.
+
+![callout-spoiler.gif](assets/callout-spoiler.gif)
+
+Syntax:
+```markdown
+> [!spoiler]- Spoiler
+> The butler did it!
+```
+
+</details>
+
+<details>
 <summary>code.css</summary>
 
 * Changes to the CodeBlock layout. It uses `filter: invert()` so that it applies the reverse styling on dark mode. 
