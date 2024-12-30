@@ -1,6 +1,6 @@
 .callout[data-callout="spoiler"] {
-    --spoiler-background: #000;
-    --spoiler-color: #fff;
+    --spoiler-background: var(--text-color-default);
+    --spoiler-color: var(--background-color-default);
     background-color: var(--spoiler-background);
     color: var(--spoiler-color);
 }

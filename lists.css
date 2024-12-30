@@ -8,8 +8,8 @@ span.list-number {
 }
 .HyperMD-list-line-2 .cm-formatting-list-ul .list-bullet:after,
 .HyperMD-list-line-5 .cm-formatting-list-ul .list-bullet:after {
-    border: 1px solid #444;
-    background-color: #fff;
+    border: 1px solid var(--text-color-default);
+    background-color: var(--background-color-default);
 }
 .HyperMD-list-line-3 .cm-formatting-list-ul .list-bullet:after,
 .HyperMD-list-line-6 .cm-formatting-list-ul .list-bullet:after {

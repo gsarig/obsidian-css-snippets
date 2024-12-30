@@ -35,6 +35,20 @@ Syntax:
 </details>
 
 <details>
+<summary>comments.css</summary>
+
+Converts [comments](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Comments) to tooltips which show their content on hover. It works for both inline and block comments. 
+
+![comments.gif](assets/comments.gif)
+
+Syntax:
+```markdown
+You can use inline footnotes ^[This is an inline footnote.] and then continue your text.
+```
+
+</details>
+
+<details>
 <summary>footnotes.css</summary>
 
 Converts [inline footnotes](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Footnotes) to tooltips which show their content on hover.

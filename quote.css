@@ -1,10 +1,33 @@
 /* Quote mods */
 .markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote {
-  background-color: var(--background-color-light);
-  font-family: var(--font-family-number);
-  padding-top: 1em;
-  padding-bottom: 1em;
-  color: #666;
-  font-style: italic;
-  font-size: 1.2em;
+    background-color: var(--background-color-light);
+    font-family: var(--font-family-number);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #666;
+    font-style: italic;
+    font-size: 1.2em;
+    margin-left: 58px !important;
+}
+
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote::before {
+    width: 43px;
+    padding-right: 10px;
+    height: 100%;
+    content: "“";
+    position: absolute;
+    border-right: calc(var(--blockquote-border-thickness) * 2) solid var(--blockquote-border-color);
+    color: var(--blockquote-border-color);
+    border-left: none;
+    left: -58px;
+    font-size: 96px;
+    align-content: center;
+    line-height: 1em;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote ~ .HyperMD-quote::before {
+    content: "";
 }
