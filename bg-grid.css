@@ -1,0 +1,14 @@
+.bg--grid .cm-contentContainer > div::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-image: 
+        linear-gradient(to bottom, #ddd 1px, transparent 1px), /* Horizontal lines */
+        linear-gradient(to right, #ddd 1px, transparent 1px); /* Vertical lines */
+    background-size: 
+        100vw calc(var(--line-height-normal) * 1.005em), /* Horizontal line spacing */
+        calc(var(--line-height-normal) * 1.005em) 100vh; /* Vertical line spacing */
+    z-index: -1; /* Optional: Push the grid behind other elements */
+}

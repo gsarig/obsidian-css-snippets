@@ -9,11 +9,27 @@ Sets the variables that  should be carried over across the various snippets. It 
 </details>
 
 <details>
+<summary>bg-grid.css</summary>
+If enabled, it will add a square grid background to all the notes including the `bg--grid` cssclass in their properties:
+
+![bg-grid.png](.github/assets/bg-grid.png)
+
+</details>
+
+<details>
+<summary>bg-lines.css</summary>
+If enabled, it will add horizontal lines to all the notes including the `bg--lines` cssclass in their properties:
+
+![bg-grid.png](.github/assets/bg-lines.png)
+
+</details>
+
+<details>
 <summary>callout-spoiler.css</summary>
 
 Styles a `spoiler` custom [callout](https://help.obsidian.md/Editing+and+formatting/Callouts), and reveals its contents after the box is both expanded and the user hovers over the content area.
 
-![callout-spoiler.gif](assets/callout-spoiler.gif)
+![callout-spoiler.gif](.github/assets/callout-spoiler.gif)
 
 Syntax:
 ```markdown
@@ -30,7 +46,7 @@ Syntax:
 * Highlights the hovered line.
 * Adds numbers to the side. 
 
-![code.png](assets/code.png)
+![code.png](.github/assets/code.png)
 
 </details>
 
@@ -39,7 +55,7 @@ Syntax:
 
 Converts [comments](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Comments) to tooltips which show their content on hover. It works for both inline and block comments. 
 
-![comments.gif](assets/comments.gif)
+![comments.gif](.github/assets/comments.gif)
 
 Syntax:
 ```markdown
@@ -53,7 +69,7 @@ You can use inline footnotes ^[This is an inline footnote.] and then continue yo
 
 Converts [inline footnotes](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Footnotes) to tooltips which show their content on hover.
 
-![footnote.gif](assets/footnote.gif)
+![footnote.gif](.github/assets/footnote.gif)
 
 Syntax:
 ```markdown
@@ -67,7 +83,7 @@ You can use inline footnotes ^[This is an inline footnote.] and then continue yo
 
 Styles the various headings.
 
-![headings.png](assets/headings.png)
+![headings.png](.github/assets/headings.png)
 
 </details>
 
@@ -76,7 +92,7 @@ Styles the various headings.
 
 Styles the lists (ordered and unordered).
 
-![lists.png](assets/lists.png)
+![lists.png](.github/assets/lists.png)
 
 </details>
 
@@ -85,7 +101,7 @@ Styles the lists (ordered and unordered).
 
 Styles the properties block.
 
-![properties.png](assets/properties.png)
+![properties.png](.github/assets/properties.png)
 
 </details>
 
@@ -94,7 +110,7 @@ Styles the properties block.
 
 Styles the quote block.
 
-![quote.png](assets/quote.png)
+![quote.png](.github/assets/quote.png)
 
 </details>
 
@@ -110,7 +126,7 @@ Hides the Attachments folder from the sidebar.
 
 Styling changes to the tables from the [Advanced Table](https://github.com/tgrosinger/advanced-tables-obsidian) plugin.
 
-![table.png](assets/table.png)
+![table.png](.github/assets/table.png)
 
 </details>
 
@@ -119,11 +135,15 @@ Styling changes to the tables from the [Advanced Table](https://github.com/tgros
 
 A small modification for the [Better Word Count](https://github.com/lukeleppan/better-word-count) plugin, which only shows the counter on hover. 
 
-![word-count.png](assets/word-count.png)
+![word-count.png](.github/assets/word-count.png)
 
 </details>
 
 ---
 
-![settings.png](assets/settings.png)
-![compare.png](assets/compare.png)
+![settings.png](.github/assets/settings.png)
+![compare.png](.github/assets/compare.png)
+
+# My other Obsidian projects
+* 👉 [Sentinel](https://github.com/gsarig/obsidian-sentinel): Update properties or run commands based on document visibility changes (e.g. every time a note opens or closes).
+* 👉 [Varinote](https://github.com/gsarig/obsidian-varinote): Add variables in Templates and set their values during the Note creation. 
