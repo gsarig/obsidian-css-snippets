@@ -9,6 +9,18 @@ Sets the variables that  should be carried over across the various snippets. It 
 </details>
 
 <details>
+<summary>bases.css</summary>
+
+Styling improvements for [Bases](https://help.obsidian.md/bases), Obsidian's built-in database view. Currently includes:
+
+* Row hover highlight, using `--background-modifier-hover` so it adapts automatically to both light and dark themes.
+
+![bases-row-hover.png](.github/assets/bases-row-hover.png)
+![bases-row-hover-light.png](.github/assets/bases-row-hover-light.png)
+
+</details>
+
+<details>
 <summary>bg-grid.css</summary>
 If enabled, it will add a square grid background to all the notes including the `bg--grid` cssclass in their properties:
 

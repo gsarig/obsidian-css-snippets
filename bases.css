@@ -1,0 +1,5 @@
+/* ── Row hover ─────────────────────────────────────────────────────────────── */
+.bases-tbody .bases-tr:hover .bases-td {
+    background-color: var(--background-modifier-hover);
+    transition: background-color 0.1s ease;
+}
