@@ -22,7 +22,15 @@ Styling improvements for [Bases](https://help.obsidian.md/bases), Obsidian's bui
 
 <details>
 <summary>bg-grid.css</summary>
-If enabled, it will add a square grid background to all the notes including the `bg--grid` cssclass in their properties:
+
+Adds a square grid background to all notes with the `bg--grid` cssclasses value in their properties. The vertical offset can be fine-tuned via `--bg-offset` in `01-variables.css` to align the grid with the actual text baseline. The default is `0px` — adjust up or down in small increments (e.g. `4px`, `-4px`) until the grid lines match your font and theme.
+
+```yaml
+---
+cssclasses:
+  - bg--grid
+---
+```
 
 ![bg-grid.png](.github/assets/bg-grid.png)
 
@@ -30,9 +38,17 @@ If enabled, it will add a square grid background to all the notes including the 
 
 <details>
 <summary>bg-lines.css</summary>
-If enabled, it will add horizontal lines to all the notes including the `bg--lines` cssclass in their properties:
 
-![bg-grid.png](.github/assets/bg-lines.png)
+Adds horizontal lines to all notes with the `bg--lines` cssclasses value in their properties. The vertical offset can be fine-tuned via `--bg-offset` in `01-variables.css` to align lines with the actual text baseline. The default is `0px` — adjust up or down in small increments (e.g. `4px`, `-4px`) until the lines match your font and theme.
+
+```yaml
+---
+cssclasses:
+  - bg--lines
+---
+```
+
+![bg-lines.png](.github/assets/bg-lines.png)
 
 </details>
 
@@ -111,7 +127,7 @@ Styles the lists (ordered and unordered).
 <details>
 <summary>prose.css</summary>
 
-Long-form reading typography, activated per-note via the `prose` cssclass. Centres the title, justifies and indents paragraphs, and constrains line length to `--prose-width` (default `560px`, configurable in `01-variables.css`). Works in both reading mode and live preview.
+Long-form reading typography, activated per-note via the `prose` cssclasses value. Centres the title, justifies and indents paragraphs, and constrains line length to `--prose-width` (default `560px`, configurable in `01-variables.css`). Works in both reading mode and live preview.
 
 Syntax:
 ```yaml
