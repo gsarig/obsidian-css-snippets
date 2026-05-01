@@ -191,4 +191,5 @@ A small modification for the [Better Word Count](https://github.com/lukeleppan/b
 
 # My other Obsidian projects
 * 👉 [Sentinel](https://github.com/gsarig/obsidian-sentinel): Update properties or run commands based on document visibility changes (e.g. every time a note opens or closes).
-* 👉 [Varinote](https://github.com/gsarig/obsidian-varinote): Add variables in Templates and set their values during the Note creation. 
+* 👉 [Varinote](https://github.com/gsarig/obsidian-varinote): Add variables in Templates and set their values during the Note creation.
+* 👉 [AI Playbooks](https://github.com/gsarig/ai-playbooks): A collection of standalone workflow blueprints for AI-assisted creative and knowledge work, each usable as an Obsidian vault.
