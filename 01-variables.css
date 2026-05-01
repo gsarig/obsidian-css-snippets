@@ -6,4 +6,5 @@ body {
     --background-color-default: #fff;
     --background-color-light: #f9f9f9;
     --font-family-number: Georgia;
+    --prose-width: 560px;
 }

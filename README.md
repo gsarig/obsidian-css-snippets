@@ -109,6 +109,23 @@ Styles the lists (ordered and unordered).
 </details>
 
 <details>
+<summary>prose.css</summary>
+
+Long-form reading typography, activated per-note via the `prose` cssclass. Centres the title, justifies and indents paragraphs, and constrains line length to `--prose-width` (default `560px`, configurable in `01-variables.css`). Works in both reading mode and live preview.
+
+Syntax:
+```yaml
+---
+cssclasses:
+  - prose
+---
+```
+
+![prose.png](.github/assets/prose.png)
+
+</details>
+
+<details>
 <summary>properties.css</summary>
 
 Styles the properties block.
